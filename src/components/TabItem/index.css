@@ -4,6 +4,12 @@
 }
 .button{
     color: #7b8794;
-    border-color: transparent;
+   border-color: transparent;
     background-color: transparent;
+}
+.active-btn-style{
+    color: #7b8794;
+    background-color: transparent;
+    border-bottom-color:  #2563eb;
+
 }

@@ -337,7 +337,7 @@ const tabsList = [
                 </div>
                 <ul className='btn-con'>
                 {tabsList.map((each)=>
-                <TabItem each={each} key={each.tabId} onSelectedButton={this.onSelectedButton}/>)}
+                <TabItem each={each} key={each.tabId} isActive={isSelectedCategory===each.tabId} onSelectedButton={this.onSelectedButton}/>)}
                 </ul>
                 <ul className='appitems-con'>
                     {userSearchFiltered.map((each)=>
